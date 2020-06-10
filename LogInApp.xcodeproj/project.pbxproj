@@ -56,15 +56,47 @@
 		A49A93472490606400CBB797 /* LogInApp */ = {
 			isa = PBXGroup;
 			children = (
-				A49A93482490606400CBB797 /* AppDelegate.swift */,
-				A49A934A2490606400CBB797 /* SceneDelegate.swift */,
-				A49A934C2490606400CBB797 /* ViewController.swift */,
-				A49A934E2490606400CBB797 /* Main.storyboard */,
-				A49A93512490606800CBB797 /* Assets.xcassets */,
-				A49A93532490606800CBB797 /* LaunchScreen.storyboard */,
-				A49A93562490606800CBB797 /* Info.plist */,
+				A49A935C249139E600CBB797 /* SupportingFiles */,
+				A49A935E24913B0000CBB797 /* ViewControllers */,
+				A49A935D24913AC600CBB797 /* Storyboards */,
+				A49A935F24913B6F00CBB797 /* Source */,
 			);
 			path = LogInApp;
+			sourceTree = "<group>";
+		};
+		A49A935C249139E600CBB797 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A49A93482490606400CBB797 /* AppDelegate.swift */,
+				A49A934A2490606400CBB797 /* SceneDelegate.swift */,
+				A49A93562490606800CBB797 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		A49A935D24913AC600CBB797 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A49A934E2490606400CBB797 /* Main.storyboard */,
+				A49A93532490606800CBB797 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A49A935E24913B0000CBB797 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A49A934C2490606400CBB797 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A49A935F24913B6F00CBB797 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A49A93512490606800CBB797 /* Assets.xcassets */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +318,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z4PXJ85XKA;
-				INFOPLIST_FILE = LogInApp/Info.plist;
+				INFOPLIST_FILE = LogInApp/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +326,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.borisBogorad.LogInApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,7 +336,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z4PXJ85XKA;
-				INFOPLIST_FILE = LogInApp/Info.plist;
+				INFOPLIST_FILE = LogInApp/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +344,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.borisBogorad.LogInApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
